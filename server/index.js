@@ -16,7 +16,7 @@ app.use('/api/v1/post', postRoutes);
 app.use('/api/v1/dalle', dalleRoutes);
 
 app.get('/', async (req, res) => {
-    res.send('Hello from Artify AI');
+    res.send('Hello from Artify AI Developed by Naseem');
 })
 
 const startServer = async () => {
